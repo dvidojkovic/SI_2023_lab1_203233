@@ -1,0 +1,24 @@
+mkdir - sozdavam folder za lokalniot repo
+cd FOLDER_NAME - vleguvam vo folderot so dadenoto ime
+git init - sozdavam lokalen repo vo folderot
+git remote add origin LINK_DO_REMOTE_REPO
+
+nano README.md - sozdavam datoteka so dadenoto ime, i vleguvam vo text editorot na git
+git add README.md - da ne bide datotekata untracked za da bi mozel da napravam commit
+git commit -m "INSERT_TEXT" - prviot commit
+-----
+istoto go pravam i za SILab1.java fileot
+
+git push origin master - sinhronizacija so remote repo
+git branch bug1/bug2/bug3 - sozdavam posebni granki za sekoj bug
+git checkout bug1/bug2/bug3 - se prefrlam na grankite za da gi popravam bugovite koristejki nano
+git add SILab1.java - go pravam ova na bug1/bug2/bug3
+git commit -m "INSERT_TEXT" - go pravam ova na bug1/bug2/bug3
+git checkout master/bug1/bug2 - se prefrlam na grankite za da gi popravam bugovite koristejki nano
+git merge master/bug1/bug2 - spojuvanje na bug1 so master i spojuvanje na bug2 so master
+git push origin master/bug1/bug2 - sinhronizacija na site granki
+git checkout bug3, pa git rebase master - za bug3 da bide na posledniot(najnoviot) commit vo master za da se izvrshi bez konflikt
+git checkout master, pa git merge bug3 - spojuvanje na bug3 so master i so toa site bugovi sredeni vo .java dokumentot vo master
+git logs - dobivam git logovi od ovoj repo
+nano logs.txt - sozdavam datoteka so site tie git logovi
+git push origin master/bug1/bug2/bug3 - sinhronizacija na site granki

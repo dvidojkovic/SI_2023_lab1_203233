@@ -1,0 +1,42 @@
+commit 62037b93840dc3b3e5c89a85244dd7a189b95423 (HEAD -> master, origin/master, origin/bug3, bug3)
+Merge: 282f25c 0ade3ac
+Author: Davor Vidojkovic <davorvidojkovic@hotmail.com>
+Date:   Sat Apr 8 21:48:51 2023 +0200
+
+    Merge branch 'bug3' of https://github.com/dvidojkovic/SI_2023_lab1_203233 into bug3
+
+commit 282f25cea21f9a9c3b9e56268a49b1298c6599bf
+Author: Davor Vidojkovic <davorvidojkovic@hotmail.com>
+Date:   Sat Apr 8 21:37:54 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit 321a3f9edd91f47ecfe5a1b4cf111c64766c18cd
+Merge: e3182df 84aba66
+Author: Davor Vidojkovic <davorvidojkovic@hotmail.com>
+Date:   Sat Apr 8 21:43:58 2023 +0200
+
+    Merge branch 'bug2'
+
+commit 0ade3ac884903a9486b76b926dddf815ade2ffa5
+Author: Davor Vidojkovic <davorvidojkovic@hotmail.com>
+Date:   Sat Apr 8 21:37:54 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit 84aba66ffde5104a5d27292c0ad9346b3d8b851d (origin/bug2, bug2)
+Author: Davor Vidojkovic <davorvidojkovic@hotmail.com>
+Date:   Sat Apr 8 21:37:08 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit e3182dfccbaf578eacba6ee43537b1be42b5f598 (origin/bug1, bug1)
+Author: Davor Vidojkovic <davorvidojkovic@hotmail.com>
+Date:   Sat Apr 8 21:36:16 2023 +0200
+
+    Fix wrong loop for reading
+
+commit 9d323541daa15d1a42931a6786b2fd3c395fff37
+Author: Davor Vidojkovic <davorvidojkovic@hotmail.com>
+Date:   Sat Apr 8 21:33:57 2023 +0200
+
